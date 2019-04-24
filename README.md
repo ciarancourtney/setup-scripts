@@ -33,3 +33,21 @@ If you have questions or feedback, please subscribe to http://lists.linuxtogo.or
 
 Angstrom Distribution maintainers: Koen Kooi <koen@dominion.thruhere.net>
                                    Khem Raj <raj.khem@gmail.com>
+
+#### Ubuntu notes
+
+##### Packages
+
+    sudo apt-get install git subversion unzip gawk texinfo texi2html chrpath diffstat gcc make build-essential libsdl1.2-dev xterm
+
+
+##### Dash Vs Bash
+
+You may get an error like `/bin/sh is a symlink to dash, please point it to bash instead` for Ubuntu. Scripts in this
+repo and downstream assume `/bin/sh` points to _bash_, so as a workaround run:
+
+    $ sudo ln -sf /bin/bash /bin/sh
+
+And make sure to revert back to default once you are done (otherwise [problems](https://wiki.ubuntu.com/DashAsBinSh)):
+
+    $ sudo ln -sf /bin/dash /bin/sh
