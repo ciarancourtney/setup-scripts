@@ -29,4 +29,4 @@ meta-dominion,git://github.com/koenkooi/meta-dominion.git,master,84c26a4cb3aab9c
 meta-exynos,git://github.com/slimlogic/meta-exynos,master,ac21b106ce5c4c928f62e8f72ebeac9b02d113e2
 meta-telephony,git://github.com/koenkooi/meta-telephony,master,f71f5ea031d96a5a84bde4531974542ae49f8bee
 meta-qt5,git://github.com/meta-qt5/meta-qt5,dora,HEAD
-openembedded-core,git://github.com/openembedded/openembedded-core.git,2018-04,1b03cdf290c3c8b7f903aef696b0e1bfe763cbe0
+openembedded-core,git://github.com/openembedded/openembedded-core.git,sumo,1b03cdf290c3c8b7f903aef696b0e1bfe763cbe0
